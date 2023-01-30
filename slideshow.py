@@ -7,7 +7,7 @@ app = QApplication([])
 app.setWindowFlags(Qt.FramelessWindowHint)
 app.setOverrideCursor(Qt.BlankCursor)
 
-folder = './pictures'
+folder = 'pictures'
 images = [os.path.join(folder, i) for i in os.listdir(folder)]
 
 label = QLabel()
